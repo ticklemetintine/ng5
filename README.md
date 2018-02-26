@@ -37,7 +37,7 @@ Run:
 `npm install -g angular-cli-ghpages`
 
 # Initial commit
-`git add .`
+`git add .` <br>
 `git commit -m 'First Commit'`
 `git remote add origin https://github.com/{{username}}/ng5.git`
 `git push -u origin master`
