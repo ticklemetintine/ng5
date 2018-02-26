@@ -30,6 +30,23 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+
+## Publishing to GitHub
+
+Run:
+`npm install -g angular-cli-ghpages`
+
+# Initial commit
+`git add .`
+`git commit -m 'First Commit'`
+`git remote add origin https://github.com/{{username}}/ng5.git`
+`git push -u origin master`
+`ng build --prod --base-href="https://{{username}}.github.io/{{projectFolder}}"`
+`angular-cli-ghpages`
+
+Access your project: `https://{{username}}.github.io/{{projectFolder}}`
+
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
