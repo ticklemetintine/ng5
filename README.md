@@ -2,25 +2,25 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
 
-# Development server
+## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-# Code scaffolding
+## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-# Build
+## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-	## Building the project for prod
+## Building the project for prod
 
-	Run `ng build --prod`
+Run `ng build --prod`
 
-	## Building the project in a sub-folder
+## Building the project in a sub-folder
 
-	Run `ng build --prod --base-href="mysubfolder"`
+Run `ng build --prod --base-href="mysubfolder"`
 
 ## Running unit tests
 
@@ -31,26 +31,27 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 
-# Publishing to GitHub
+## Publishing to GitHub
 
 Run:
 `npm install -g angular-cli-ghpages`
 
-## Initial commit
+	## Initial commit
 
-`git add .` <br>
-`git commit -m 'First Commit'` <br>
-`git remote add origin https://github.com/{{username}}/{{RepoName}}.git` <br>
+	`git add .` <br>
+	`git commit -m 'First Commit'` <br>
+	`git remote add origin https://github.com/{{username}}/{{RepoName}}.git` <br>
 
-## Push to origin
+	## Push to origin
 
-`git push -u origin master` <br>
+	`git push -u origin master` <br>
 
-## Build and publish
-`ng build --prod --base-href="https://{{username}}.github.io/{{projectFolder}}"` <br>
-`angular-cli-ghpages` <br>
- <br>
-Access your project: `https://{{username}}.github.io/{{projectFolder}}`
+	## Build and publish
+
+	`ng build --prod --base-href="https://{{username}}.github.io/{{projectFolder}}"` <br>
+	`angular-cli-ghpages` <br>
+	<br>
+	Access your project: `https://{{username}}.github.io/{{projectFolder}}`
 
 
 ## Further help
