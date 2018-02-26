@@ -39,7 +39,7 @@ Run:
 # Initial commit
 `git add .` <br>
 `git commit -m 'First Commit'` <br>
-`git remote add origin https://github.com/{{username}}/ng5.git` <br>
+`git remote add origin https://github.com/{{username}}/{{RepoName}}.git` <br>
 `git push -u origin master` <br>
 `ng build --prod --base-href="https://{{username}}.github.io/{{projectFolder}}"` <br>
 `angular-cli-ghpages` <br>
