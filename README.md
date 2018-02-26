@@ -38,12 +38,12 @@ Run:
 
 # Initial commit
 `git add .` <br>
-`git commit -m 'First Commit'`
-`git remote add origin https://github.com/{{username}}/ng5.git`
-`git push -u origin master`
-`ng build --prod --base-href="https://{{username}}.github.io/{{projectFolder}}"`
-`angular-cli-ghpages`
-
+`git commit -m 'First Commit'` <br>
+`git remote add origin https://github.com/{{username}}/ng5.git` <br>
+`git push -u origin master` <br>
+`ng build --prod --base-href="https://{{username}}.github.io/{{projectFolder}}"` <br>
+`angular-cli-ghpages` <br>
+ <br>
 Access your project: `https://{{username}}.github.io/{{projectFolder}}`
 
 
